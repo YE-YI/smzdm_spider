@@ -76,6 +76,6 @@ def my_job():
 
 sched = BlockingScheduler()
 print('脚本开始')
-sched.add_job(my_job,'interval', hours=24)
+sched.add_job(my_job,'interval', hours=24, misfire_grace_time=50)
 sched.start()
 
