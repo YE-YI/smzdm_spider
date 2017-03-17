@@ -4,8 +4,8 @@ import sys
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-username = ****
-password = ****
+username = '****'
+password = '****'
 class smzdmSpider:
     def __init__(self, username, password):
         self.username = username
